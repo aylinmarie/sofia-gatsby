@@ -10,8 +10,7 @@ const Index = ({ children, style }) => (
 
 Index.propTypes = {
     children: PropTypes.node.isRequired,
-    children: PropTypes.oneOf(['alternate']),
-
+    style: PropTypes.oneOf(['alternate', 'none']),
   };
 
 export default Index

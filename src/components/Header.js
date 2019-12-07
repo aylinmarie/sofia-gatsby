@@ -6,10 +6,10 @@ const Header = () => (
   <header>
     <ul className="header-wrapper">
       <li>Welcome</li>
-      <li>Contact</li>
-      <li>Sofia Rey</li>
+      <li><Link to="#contact">Contact</Link></li>
+      <li className="header-branding"><Link to="/">Sofia Rey</Link></li>
       <li>
-        <Link to="www.instagram.com">Instagram</Link>
+        <a href="www.instagram.com" target="_blank">Instagram</a>
       </li>
       <li>LinkedIn</li>
     </ul>
