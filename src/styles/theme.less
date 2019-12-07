@@ -1,3 +1,5 @@
+@import "./variables.less";
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8,4 +10,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Baskervville", serif;
+}
+
+h1,
+.h1 {
+  font-size: 54px;
+  letter-spacing: 0em;
+  line-height: 1.25em;
+  font-weight: 400;
+}
+
+button {
+  background-color: @sofia-black;
+  padding: (@base-unit * 2) (@base-unit * 3);
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #fff;
 }

@@ -18,7 +18,7 @@ const IndexPage = () => (
       <p>image</p>
     </Index>
     <Index>
-      <h2>Services & Pricing</h2>
+      <h2 className="h1">Services & Pricing</h2>
       <p>Add a description of your services. Aliquam at lorem tortor. Nulla eu sapien eu nibh dapibus ornare. Vestibulum posuere rhoncus elementum. Donec mattis luctus nisl non iaculis. Maecenas rhoncus augue nisi, id suscipit arcu luctus varius.</p>
       <p>The rates below are for one child. Please contact me regarding rates for additional children.</p>
       <ul>
@@ -31,7 +31,7 @@ const IndexPage = () => (
       <button>Book a Service</button>
     </Index>
     <Index style="alternate">
-      <h2>Resume</h2>
+      <h2 className="h1">Resume</h2>
       <p>Add a description of your services. Aliquam at lorem tortor. Nulla eu sapien eu nibh dapibus ornare. Vestibulum posuere rhoncus elementum. Donec mattis luctus nisl non iaculis. Maecenas rhoncus augue nisi, id suscipit arcu luctus varius.</p>
       <h3>Experience</h3>
       <button>Download Resume</button>
