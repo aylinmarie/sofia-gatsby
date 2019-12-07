@@ -12,7 +12,6 @@ import Header from "./Header"
 import "./layout.less"
 
 const Layout = ({ children }) => {
-
   return (
     <>
       <Header />
