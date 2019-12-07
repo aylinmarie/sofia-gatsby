@@ -3,4 +3,6 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
-import  './src/styles/theme.less';
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./src/styles/theme.less"
