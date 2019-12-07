@@ -14,7 +14,7 @@ const IndexPage = () => (
         nine years.
       </h1>
     </Index>
-    <Index>
+    <Index style={`alternate`}>
       image
     </Index>
     <Index>
@@ -38,7 +38,7 @@ const IndexPage = () => (
       </ul>
       <button>Book a Service</button>
     </Index>
-    <Index style="alternate">
+    <Index style={`alternate`}>
       <h2 className="h1">Resume</h2>
       <p>
         Add a description of your services. Aliquam at lorem tortor. Nulla eu
