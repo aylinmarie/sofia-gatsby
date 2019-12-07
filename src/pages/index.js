@@ -30,7 +30,7 @@ const IndexPage = () => (
       </ul>
       <button>Book a Service</button>
     </Index>
-    <Index>
+    <Index style="alternate">
       <h2>Resume</h2>
       <p>Add a description of your services. Aliquam at lorem tortor. Nulla eu sapien eu nibh dapibus ornare. Vestibulum posuere rhoncus elementum. Donec mattis luctus nisl non iaculis. Maecenas rhoncus augue nisi, id suscipit arcu luctus varius.</p>
       <h3>Experience</h3>
