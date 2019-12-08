@@ -5,7 +5,7 @@ import "./Index.less"
 const Index = ({ children, style }) => (
   <section
     className={
-      style === `alternate` ? "index-wrapper alternate" : "index-wrapper"
+      style === "alternate" ? "index-wrapper alternate" : "index-wrapper"
     }
   >
     {children}

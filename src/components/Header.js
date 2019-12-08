@@ -1,14 +1,16 @@
 import { Link } from "gatsby"
+
 import React from "react"
 import "./Header.less"
 
-const Header = () => (
+const Header = () => {
+  return (
   <header className="header-wrapper">
     <nav>
       <ul className="header-nav">
         <li>Welcome</li>
         <li>
-          <Link to="#contact">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -28,6 +30,7 @@ const Header = () => (
       </ul>
     </nav>
   </header>
-)
+  )
+}
 
 export default Header
